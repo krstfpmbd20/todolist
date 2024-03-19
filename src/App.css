@@ -1,0 +1,75 @@
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+body {
+  background: linear-gradient(to bottom right, #F4512C, #5E1B89);
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  padding: 162px;
+}
+
+.list-group-item {
+  background-color: black; /* Semi-transparent black background */
+  border: none;
+  margin-bottom: 10px;
+  color: #fff; /* Text color */
+}
+
+.list-group-item:hover {
+  background-color:#9D71BC
+}
+
+.list-group-item h5 {
+  color: black; 
+}
+
+.list-group-item p {
+  color: black; 
+}
+
+.btn {
+  color: #fff;
+  padding: 8px 16px; /* Add padding to buttons for better touch experience */
+  font-size: 14px; /* Reduce font size for buttons */
+  background-color: transparent; /* Make buttons transparent */
+  border: 2px solid; /* Add border */
+  border-color: #fff; /* White border color */
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white on hover */
+}
+
+.btn-primary {
+  color: orange;
+  border-color: orange;
+}
+
+.btn-primary:hover {
+  border-color: #ff8c00;
+}
+
+.btn-success {
+  color: #4caf50;
+  border-color: #4caf50;
+}
+
+.btn-success:hover {
+  border-color: rgba(76, 175, 80, 0.8);
+}
+
+.btn-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  border-color: rgba(220, 53, 69, 0.8);
+}
